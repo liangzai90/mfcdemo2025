@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\UPS201501.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UPS201501Doc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UPS201501.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-ok.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-no.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-warn1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-warn2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\root.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\shsany.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Test.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-AC1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-AC2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-DC1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-DC2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-AC3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ups-DC3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\shsany-版本信息.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UPS201501.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UPS201501Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UPS201501View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UPSView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mbsdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="user_ulti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAddUPS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgModifyNodeName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UPSGraphic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleUPSInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDelDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UPS201501.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UPS201501Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UPS201501View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UPSView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAddUPS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgModifyNodeName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UPSGraphic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SoeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleUPSInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogInDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDelDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UPS201501.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
